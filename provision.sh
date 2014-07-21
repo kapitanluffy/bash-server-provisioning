@@ -1,5 +1,5 @@
 #!/bin/sh
-add-apt-repository -y ppa:ondrej/php5-oldstable
+add-apt-repository -y ppa:ondrej/php5
 apt-get update
 apt-get install -y apache2 
 apt-get install -y mysql-server mysql-client
