@@ -12,3 +12,6 @@ fi
 
 /usr/bin/mysql_secure_installation
 service apache2 restart
+
+useradd www-man
+echo -e "changepassword\nchangepassword\n" | passwd www-man
